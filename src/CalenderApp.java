@@ -103,7 +103,6 @@ public class CalenderApp {
             return 0;
         }
         public static Boolean isLeapYear(int year) {
-            // A dummy value
             return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
         }
 }
